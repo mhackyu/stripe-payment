@@ -1,0 +1,33 @@
+{
+  "name": "stripe-payment",
+  "version": "1.0.0",
+  "description": "Simple stripe generic payment gateway exmaple",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mhackyu/stripe-payment.git"
+  },
+  "keywords": [
+    "stripe",
+    "payment",
+    "gateway",
+    "node",
+    "express"
+  ],
+  "author": "mhackyu <mark.christian.paderes@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mhackyu/stripe-payment/issues"
+  },
+  "homepage": "https://github.com/mhackyu/stripe-payment#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "stripe": "^8.120.0"
+  }
+}
