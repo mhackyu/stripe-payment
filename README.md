@@ -2,7 +2,7 @@
 
 ## Apps using this gateway
 - [Amazon Clone App (ReactJS version)](https://clone-c960f.web.app/)
-- [Amazon Clone App (VueJS version)]()
+- [Amazon Clone App (VueJS version)](https://www.amazon.mhackyu.dev/)
 
 ## ENV
 ```
