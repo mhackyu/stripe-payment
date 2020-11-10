@@ -14,6 +14,8 @@ app.get("/", (req, res) => {
   });
 });
 
+// It is strongly recommended that you use a product id and quantity to calculate the total amount, and process on the backend to avoid people manipulating the cost
+// since we don't have a product db we let the client compute the total amount and pass it to our server.
 app.post("/payments", async (req, res) => {
   const { total } = req.query;
 
